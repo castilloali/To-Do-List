@@ -17,7 +17,7 @@
 }
 
 
-label {
+.label-inp {
     z-index: 10;
     font-size: 12px;
     background-color: #1f1e1f;
@@ -26,7 +26,6 @@ label {
     top: -15%;
     color: white;
     padding: 0 2px;
-
 }
 
 input {
@@ -34,9 +33,25 @@ input {
     background: transparent;
     border-radius: 10px ;
     padding: 5px;
+    color: white;
+    /* margin-top: 20px; */
 }
 .button,
 input {
     width: 100%;
 }
 
+
+.header {
+    color: #d3d0d0;
+}
+
+label {
+    color : #d3d0d0;
+}
+
+.checkbox {
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+}
